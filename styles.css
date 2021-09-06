@@ -52,3 +52,9 @@ img {
 .fade:hover::after {
   opacity: 0.5;
 }
+
+@media (max-width: 908px) {
+  body > div {
+    display: block;
+  }
+}
